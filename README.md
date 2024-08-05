@@ -6,7 +6,7 @@ Bem-vindo ao projeto de Rede Social Simplificada! Este é um projeto que simula 
 
 O projeto é estruturado de acordo com uma arquitetura em camadas, o que facilita a manutenção e a escalabilidade do código. A estrutura básica é a seguinte:
 
-- **Modelo (Model):** Contém as entidades do sistema, como `Usuário`, `Post` e `Comentário`.
+- **Modelo (Domain):** Contém as entidades do sistema, como `Usuário`, `Post`.
 - **Repositório (Repository):** Interfaces que definem os métodos para acessar e manipular os dados no banco de dados.
 - **Serviço (Service):** Contém a lógica de negócios da aplicação.
 - **Controlador (Controller):** Gerencia as requisições HTTP e interage com os serviços para fornecer respostas adequadas.
