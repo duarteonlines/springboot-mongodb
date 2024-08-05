@@ -32,5 +32,30 @@ Antes de rodar o projeto, certifique-se de ter os seguintes softwares instalados
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seuusuario/rede-social-simplificada.git
+   git clone https://github.com/oliveiraordep/springboot-mongodb.git
    ```
+
+   ```
+   cd springboot-mongodb
+   ```
+
+2. **Configurando Base de Dados:**
+   
+   Configure o MongoDB:
+
+   Certifique-se de que o MongoDB está em execução. Por padrão, o MongoDB estará ouvindo na porta 27017.
+
+2.1 **Configure as propriedades do MongoDB**
+
+   Edite o arquivo src/main/resources/application.properties e ajuste a URL de conexão do MongoDB se necessário.
+
+
+## Buildando e rodando o projeto
+
+```bash
+mvn clean install
+```
+
+```bash
+mvn spring-boot:run
+```
